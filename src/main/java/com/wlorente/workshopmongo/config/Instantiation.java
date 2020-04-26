@@ -1,4 +1,4 @@
-package com.nelioalves.workshopmongo.config;
+package com.wlorente.workshopmongo.config;
 
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
@@ -8,12 +8,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 
-import com.nelioalves.workshopmongo.domain.Post;
-import com.nelioalves.workshopmongo.domain.User;
-import com.nelioalves.workshopmongo.dto.AuthorDTO;
-import com.nelioalves.workshopmongo.dto.CommentDTO;
-import com.nelioalves.workshopmongo.repository.PostRepository;
-import com.nelioalves.workshopmongo.repository.UserRepository;
+import com.wlorente.workshopmongo.domain.Post;
+import com.wlorente.workshopmongo.domain.User;
+import com.wlorente.workshopmongo.dto.AuthorDTO;
+import com.wlorente.workshopmongo.dto.CommentDTO;
+import com.wlorente.workshopmongo.repository.PostRepository;
+import com.wlorente.workshopmongo.repository.UserRepository;
 
 @Configuration
 public class Instantiation implements CommandLineRunner {
